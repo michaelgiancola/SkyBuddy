@@ -33,7 +33,7 @@ struct WeatherOverviewView: View {
                     .padding(.top, 60)
                 }
                 .navigationDestination(item: $viewModel.selectedWeatherDetails) { weatherDetails in
-                    WeatherDetailsView(weatherDetails: weatherDetails)
+                    WeatherDetailsView(weatherDetails: weatherDetails, locationName: viewModel.locationName.orEmpty)
                 }
                 
                 if viewModel.isLoading {

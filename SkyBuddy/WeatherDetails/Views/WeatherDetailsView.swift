@@ -9,11 +9,16 @@ import SwiftUI
 
 struct WeatherDetailsView: View {
     let weatherDetails: WeatherDetailsUIModel
+    let locationName: String
 
     var body: some View {
         ScrollView {
             VStack(spacing: 24) {
                 Spacer().frame(height: 32)
+                
+                Text(locationName)
+                    .font(.title.bold())
+                    .foregroundColor(.white)
 
                 WeatherIconView(iconCode: weatherDetails.icon.orEmpty)
                     .frame(width: 80, height: 80)
