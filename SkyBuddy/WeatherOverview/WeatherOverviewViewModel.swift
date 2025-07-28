@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 class WeatherOverviewViewModel: BaseViewModel {
     @Published var showRequestLocationButton: Bool = false
@@ -43,6 +44,12 @@ class WeatherOverviewViewModel: BaseViewModel {
     
     func getCurrentLocation() {
         locationManager.requestLocation()
+
+        guard locationManager.location != nil else {
+            showRequestLocationButton = true
+            locationManager.location = CLLocation(latitude: 43.651070, longitude: -79.347015) // fallback to Toronto
+            return
+        }
     }
     
     @MainActor

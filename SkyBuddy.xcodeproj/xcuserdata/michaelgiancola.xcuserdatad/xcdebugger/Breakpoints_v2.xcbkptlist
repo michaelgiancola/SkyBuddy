@@ -14,8 +14,8 @@
             filePath = "SkyBuddy/WeatherOverview/WeatherOverviewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "fetchWeather(coordinates:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "SkyBuddy/WeatherOverview/WeatherOverviewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "fetchCurrentLocationWeather()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "SkyBuddy/WeatherOverview/WeatherOverviewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "setSelectedWeatherDay(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,13 +62,13 @@
             filePath = "SkyBuddy/WeatherOverview/WeatherOverviewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "fetchWeather(city:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "ECCA0C36-C83E-4556-9F40-DB9E709A1DA6 - 166d447a9d14fbaa"
+                  uuid = "ECCA0C36-C83E-4556-9F40-DB9E709A1DA6 - 166d447a9d14fad1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -78,11 +78,11 @@
                   urlString = "file:///Users/michaelgiancola/Desktop/SkyBuddy/SkyBuddy/WeatherOverview/WeatherOverviewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73">
+                  startingLineNumber = "80"
+                  endingLineNumber = "80">
                </Location>
                <Location
-                  uuid = "ECCA0C36-C83E-4556-9F40-DB9E709A1DA6 - befe876d6efb59ab"
+                  uuid = "ECCA0C36-C83E-4556-9F40-DB9E709A1DA6 - befe876d6efb58d0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -92,8 +92,8 @@
                   urlString = "file:///Users/michaelgiancola/Desktop/SkyBuddy/SkyBuddy/WeatherOverview/WeatherOverviewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73">
+                  startingLineNumber = "80"
+                  endingLineNumber = "80">
                </Location>
             </Locations>
          </BreakpointContent>
